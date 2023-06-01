@@ -77,3 +77,9 @@ footer {
     height: 100px;
     background-color: #222222;
 }
+
+footer button {
+    border: none;
+    color: white;
+    background-color: #222222;
+}
