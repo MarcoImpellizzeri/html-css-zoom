@@ -41,24 +41,26 @@ main {
 }
 
 .container {
-    padding: 0 100px;
     margin: 0 auto;
+    padding: 0 80px;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
-    
+    align-items: center;
+    justify-content: center;
 }
 
 .col{
     display: flex;
-    flex-basis: calc(100% / 7);
-    padding: 10px 5px;
+    flex-basis: 250px;
+    padding: 10px 3px;
+    
 }
 .cam {
     position: relative;
-    object-position: center;
+    
 }
 
 .bottom-overlay {
@@ -73,5 +75,5 @@ main {
 
 footer {
     height: 100px;
-    background-color: white;
+    background-color: #222222;
 }
