@@ -74,7 +74,6 @@ main {
 /* footer start */
 
 footer {
-    height: 100px;
     background-color: #222222;
 }
 
@@ -82,4 +81,32 @@ footer button {
     border: none;
     color: white;
     background-color: #222222;
+}
+
+.left-section {
+    display: flex;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.8rem;
+    padding-bottom: 5px;
+}
+
+.logo-button {
+    padding: 15px 0px 15px 15px;
+    font-size: .9rem;
+}
+
+.chevron {
+    padding: 15px 15px 15px 20px;
+    font-size: .6rem;
+}
+
+.center-section {
+    
 }
