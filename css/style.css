@@ -121,11 +121,12 @@ footer span {
 }
 
 .logo-button {
-    padding: 15px 0px 15px 15px;
+    padding: 15px 15px 15px 15px;
     font-size: .9rem;
 }
 
 .chevron {
+    height: 100%;
     padding: 15px 15px 15px 20px;
     font-size: .6rem;
 }
