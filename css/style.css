@@ -42,7 +42,7 @@ main {
 
 .container {
     margin: 0 auto;
-    padding: 0 80px;
+    padding: 20px 80px;
 }
 
 .row {
@@ -60,7 +60,6 @@ main {
 }
 .cam {
     position: relative;
-    
 }
 
 .bottom-overlay {
@@ -75,6 +74,7 @@ main {
 
 footer {
     background-color: #222222;
+    border-bottom: 5px solid black;
 }
 
 footer button {
@@ -83,11 +83,34 @@ footer button {
     background-color: #222222;
 }
 
-.left-section {
-    display: flex;
+footer span {
+    display: block;
 }
 
-.button {
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-section {
+    display: flex;
+    flex-grow: 1;
+    max-width: 300px;
+}
+
+.center-section {
+    flex-grow: 3;
+    display: flex;
+    justify-content: center;
+}
+
+.right-section {
+    flex-grow: 1;
+    text-align: right;
+    max-width: 300px;
+}
+
+.buttons {
     display: flex;
     align-items: center;
 }
@@ -107,6 +130,14 @@ footer button {
     font-size: .6rem;
 }
 
-.center-section {
-    
+.green-icon {
+    color: #4BC800;
+}
+
+.end {
+    text-align: center;
+    height: 100%;
+    color: red;
+    background-color: #4A4A4A;
+    padding: 15px;
 }
